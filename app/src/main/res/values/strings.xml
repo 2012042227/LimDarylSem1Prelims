@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uaap Updater</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="choices">
+        <item>Schedule</item>
+        <item>Highlights</item>
+    </string-array>
+
+    <string name="title_activity_main2">UAAP Updater</string>
+    <string name="title_activity_main3">UAAP Updater</string>
+    <string name="title_activity_match1">UAAP Updater</string>
+    <string name="title_activity_main">UAAP Updater</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_match2">match2</string>
+
+</resources>

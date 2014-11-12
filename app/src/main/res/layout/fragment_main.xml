@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".main$PlaceholderFragment"
+    android:background="@drawable/logo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UAAP UPDATE"
+        android:id="@+id/Archers"
+        android:textSize="30dp"
+        android:textColor="#ffffdb25"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Radio1"
+        android:minHeight="50dp"
+        android:layout_below="@+id/Archers"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule"
+        android:id="@+id/next"
+        android:textSize="40dp"
+        android:textColor="#ffffd539"
+        android:layout_marginTop="99dp"
+        android:layout_below="@+id/Archers"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:background="@drawable/abc_ab_stacked_solid_dark_holo" />
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highlights"
+        android:id="@+id/next2"
+        android:textSize="35dp"
+        android:textColor="#ffffdd2b"
+        android:layout_below="@+id/next"
+        android:layout_alignRight="@+id/next"
+        android:layout_alignEnd="@+id/next"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/abc_ab_stacked_solid_dark_holo" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/submit_area"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#00a1a9"
+        android:longClickable="false"
+        android:background="@drawable/abc_cab_background_top_holo_light" />
+</RelativeLayout>

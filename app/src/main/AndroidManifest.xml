@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.uaap" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/uaap_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main2"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name=".main3"
+            android:label="@string/title_activity_main3" >
+        </activity>
+        <activity
+            android:name=".match1"
+            android:label="@string/title_activity_match1" >
+        </activity>
+        <activity
+            android:name=".match2"
+            android:label="@string/title_activity_match2" >
+        </activity>
+    </application>
+
+</manifest>
